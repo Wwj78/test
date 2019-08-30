@@ -5,12 +5,20 @@ public class Book {
 	public String getSexname() {
 		return sexs[sex];
 	}
-	
+	private String typename;
  private int id;
  private String name;
  private  int sex;
  private int typeid;
  
+public String getTypename() {
+	return typename;
+}
+
+public void setTypename(String typename) {
+	this.typename = typename;
+}
+
 public Book() {
 	super();
 }

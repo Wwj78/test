@@ -14,7 +14,7 @@
 <table>
 <tr><td>编号</td><td>名称</td><td>性别</td><td>属性</td></tr>
 <c:forEach items="${list}" var="r">
-<tr><td>${r.id}</td><td>${r.name }</td><td>${r.sexname }</td><td>${r.typeid }</td></tr>
+<tr><td>${r.id}</td><td>${r.name }</td><td>${r.sexname }</td><td>${r.typename }</td></tr>
 </c:forEach>
 </table>
 </body>

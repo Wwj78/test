@@ -14,10 +14,6 @@ import Service.Impl.Book_Service_Impl;
 public class Testcontroller {
 	@Autowired 
 	 Book_Service_Impl service;
-	public void ex(Exception e) {
-		e.printStackTrace();
-	}
-	
 @RequestMapping("index")
 public void index(String txt,ModelMap m)
 {
